@@ -1,0 +1,94 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 339px
+}
+
+.animation {
+  width: 152px;
+  height: 212px;
+  margin: 139px auto;
+  animation-name: assasin;
+  background-image: url(../img/animated.png);
+  background-repeat: no-repeat;
+  animation-duration: 1s;
+  animation-timing-function: steps(22);
+  animation-iteration-count: infinite
+}
+
+@keyframes assasin {
+  0% {
+    background-position-x: 0
+  }
+
+  100% {
+    background-position-x: -3085px
+  }
+}
+
+.svg-container {
+  margin: 0 auto;
+  background-image: url(../img/interior.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.svg-container:hover {
+  transition: .5s;
+  transform: scale(1.2)
+}
+
+.svg-container a:focus {
+  outline: none
+}
+
+.flower {
+  fill: #81c784
+}
+
+.coverlid {
+  fill: #b0bec5
+}
+
+.image {
+  fill: #ccff90
+}
+
+.lamp {
+  fill: #ffff00
+}
+
+.pillow {
+  fill: #ff9800
+}
+
+.picture {
+  fill: #80cbc4
+}
+
+.flower-pot {
+  fill: #8d6e63
+}
+
+.table {
+  fill: #546e7a
+}
+
+.vector {
+  stroke: #546e7a;
+  stroke-width: .7;
+  transition: .3s;
+  opacity: 0
+}
+
+.vector:hover {
+  opacity: .3
+}
+
+.lamp:hover {
+  opacity: .9
+}
+
+.pillow:hover {
+  opacity: .7
+}
