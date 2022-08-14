@@ -4,27 +4,7 @@
   margin-bottom: 339px
 }
 
-.animation {
-  width: 152px;
-  height: 212px;
-  margin: 139px auto;
-  animation-name: assasin;
-  background-image: url(../img/animated.png);
-  background-repeat: no-repeat;
-  animation-duration: 1s;
-  animation-timing-function: steps(22);
-  animation-iteration-count: infinite
-}
 
-@keyframes assasin {
-  0% {
-    background-position-x: 0
-  }
-
-  100% {
-    background-position-x: -3085px
-  }
-}
 
 .svg-container {
   margin: 0 auto;
